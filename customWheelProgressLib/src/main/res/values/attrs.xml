@@ -13,11 +13,11 @@
         format="color"/>
     <attr name="max"
         format="integer"/>
-    <attr name="lineWidth"
+    <attr name="lineWidth1"
       format="integer"/>
-    <attr name="lineSpacing"
+    <attr name="lineSpacing1"
       format="integer"/>
-    <attr name="strokeWidth"
+    <attr name="strokeWidth1"
       format="integer"/>
     <attr name="startAngle"
       format="float"/>
