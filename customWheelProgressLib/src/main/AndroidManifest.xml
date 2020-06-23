@@ -2,6 +2,5 @@
     package="com.umair.customwheelprogresslib">
 
     <application
-        android:allowBackup="true"
-        android:label="customWheelProgress" />
+        android:allowBackup="true" />
 </manifest>
