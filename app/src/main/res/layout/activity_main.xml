@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <com.umair.customwheelprogresslib.ProgressView
+            android:id="@+id/velocimeter2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:external_progress_color="@color/external_progress"
+            app:inside_progress_color="@android:color/darker_gray"
+            app:internal_velocimeter_color="@android:color/transparent"
+            app:progress_blur_color="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/velocimeter2"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="6dp"
+            android:text="Rides"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

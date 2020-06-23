@@ -1,0 +1,3 @@
+include ':customWheelProgressLib'
+include ':app'
+rootProject.name = "CustomWheelProgressView"
