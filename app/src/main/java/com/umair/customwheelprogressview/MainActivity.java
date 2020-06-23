@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        velocimeter2 = (ProgressView) findViewById(R.id.velocimeter2);
+        velocimeter2 = findViewById(R.id.velocimeter2);
         velocimeter2.setValue(45f);
     }
 }
