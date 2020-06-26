@@ -14,6 +14,7 @@ public class ProgressWheelPainterImpl implements ProgressWheelPainter {
     protected Paint paint;
     private int color;
     private float startAngle;
+    private float endAngle;
     private int width;
     private int height;
     private float plusAngle = 0;
@@ -37,6 +38,7 @@ public class ProgressWheelPainterImpl implements ProgressWheelPainter {
         this.lineSpaceSize = lineSpaceSize;
         this.strokeWidthSize = strokeWidthSize;
         this.startAngle = startAngle;
+        this.endAngle = endAngle;
         initSize();
         init();
     }
@@ -92,7 +94,7 @@ public class ProgressWheelPainterImpl implements ProgressWheelPainter {
     }
 
     public void setValue(float value) {
-        this.plusAngle = (310f * value) / max;
+        this.plusAngle = (endAngle * value) / max;
     }
 
     public float getMax() {

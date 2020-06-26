@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ProgressView velocimeter2 = findViewById(R.id.velocimeter2);
-        velocimeter2.setValue(45f);
+        velocimeter2.setValue(50f);
     }
 }
