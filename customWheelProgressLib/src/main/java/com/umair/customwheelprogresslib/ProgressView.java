@@ -108,9 +108,9 @@ public class ProgressView extends View {
                 attributes.getColor(R.styleable.VelocimeterView_internal_velocimeter_color,
                         internalVelocimeterColor);
         max = attributes.getInt(R.styleable.VelocimeterView_max, max);
-        lineWidth = attributes.getInt(R.styleable.VelocimeterView_lineWidth, lineWidth);
-        lineSpacing = attributes.getInt(R.styleable.VelocimeterView_lineSpacing, lineSpacing);
-        strokeWidth = attributes.getInt(R.styleable.VelocimeterView_strokeWidth, strokeWidth);
+        lineWidth = attributes.getInt(R.styleable.VelocimeterView_progressLineWidth, lineWidth);
+        lineSpacing = attributes.getInt(R.styleable.VelocimeterView_progressLineSpacing, lineSpacing);
+        strokeWidth = attributes.getInt(R.styleable.VelocimeterView_progressStrokeWidth, strokeWidth);
         startAngle = attributes.getFloat(R.styleable.VelocimeterView_startAngle, startAngle);
         endAngle = attributes.getFloat(R.styleable.VelocimeterView_endAngle, endAngle);
     }
