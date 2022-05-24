@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "me.com.easytaxista",
+    "sha256_cert_fingerprints":
+    ["CC:EA:CC:3B:89:80:F3:00:35:B6:53:37:91:A2:46:05:1F:34:79:A8:94:7C:D3:21:37:AC:DD:F3:19:77:04:6E"]
+  }
+}]
